@@ -15,9 +15,10 @@ height:5px;
 margin:auto;
 }
 .icon{
-width:200px;
+width:223px;
 float:left;
 height:70px;
+margin-left:14px;
 }
 .logo{
 color:#ff7200;
@@ -57,15 +58,15 @@ color:#ff7200;
 .search{
 width:330px;
 float:left;
-margin-left:270px;
+margin-left: 270px;
 }
 .srch{
 font-family: 'Times New Roman';
 width:200px;
-height:30px;
+height:40px;
 /*background:transparent;*/
 border:1px solid #ff7200;
-margin-top: 15px;
+margin-top: 13px; 
 color:solid red;
 border-right:none;
 font-size:16px;
@@ -78,7 +79,7 @@ border-top-left-radius: 5px;
 width:100px;
 height:40px;
 background: #ff7200;
-border:20px #ff7200;
+border:2px #ff7200;
 margin-top:13px;
 color:#fff;
 font-size:15px;
@@ -111,7 +112,7 @@ position: realtive;
 font-family: 'Times New Roman';
 font-size:50px;
 padding-left:20px;
-margin-top:9%;
+margin-top:10%;
 letter-spacing:3px; 
 }
 .content .ctn{
@@ -214,8 +215,29 @@ color:#ff7200;
  .liw{
 padding-top:15px;
 padding-top:10px;
-text-align:center;
- 
+text-align:center; 
+
+ }
+ .icon a{
+text-decoration: none;
+color:#fff;
+ }
+ .icon ion-icon{
+color:#fff;
+font-size:25px;
+margin-left: 15px;
+padding-top:4px;
+transition: 0.3s ease;
+ }
+ .icon ion-icon:hover{
+color:#ff7200;
+
+
+
+
+
+
+
 
 
 
